@@ -39,7 +39,7 @@ namespace KatlaSport.Services.ProductManagement
             return categories;
         }
 
-        /// <inheritdoc/>
+        /// <inheritdoc/>/
         public async Task<ProductCategory> GetCategoryAsync(int categoryId)
         {
             var dbCategories = await _context.Categories.Where(p => p.Id == categoryId).ToArrayAsync();
