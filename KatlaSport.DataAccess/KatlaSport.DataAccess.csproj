@@ -73,6 +73,26 @@
     <Compile Include="Migrations\201810012003385_AddProductDescriptionManCodePrice.Designer.cs">
       <DependentUpon>201810012003385_AddProductDescriptionManCodePrice.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201810031958529_AddProductDescriptionManCodePriceRules.cs" />
+    <Compile Include="Migrations\201810031958529_AddProductDescriptionManCodePriceRules.Designer.cs">
+      <DependentUpon>201810031958529_AddProductDescriptionManCodePriceRules.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810032042060_AddProductDescriptionManCodePriceRules1.cs" />
+    <Compile Include="Migrations\201810032042060_AddProductDescriptionManCodePriceRules1.Designer.cs">
+      <DependentUpon>201810032042060_AddProductDescriptionManCodePriceRules1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810032045409_AddProductManCodePriceDefaults.cs" />
+    <Compile Include="Migrations\201810032045409_AddProductManCodePriceDefaults.Designer.cs">
+      <DependentUpon>201810032045409_AddProductManCodePriceDefaults.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810032051136_RemoveProductsCol.cs" />
+    <Compile Include="Migrations\201810032051136_RemoveProductsCol.Designer.cs">
+      <DependentUpon>201810032051136_RemoveProductsCol.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810032053041_AddManCodePrice.cs" />
+    <Compile Include="Migrations\201810032053041_AddManCodePrice.Designer.cs">
+      <DependentUpon>201810032053041_AddManCodePrice.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -91,6 +111,21 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201810012003385_AddProductDescriptionManCodePrice.resx">
       <DependentUpon>201810012003385_AddProductDescriptionManCodePrice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810031958529_AddProductDescriptionManCodePriceRules.resx">
+      <DependentUpon>201810031958529_AddProductDescriptionManCodePriceRules.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810032042060_AddProductDescriptionManCodePriceRules1.resx">
+      <DependentUpon>201810032042060_AddProductDescriptionManCodePriceRules1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810032045409_AddProductManCodePriceDefaults.resx">
+      <DependentUpon>201810032045409_AddProductManCodePriceDefaults.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810032051136_RemoveProductsCol.resx">
+      <DependentUpon>201810032051136_RemoveProductsCol.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810032053041_AddManCodePrice.resx">
+      <DependentUpon>201810032053041_AddManCodePrice.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
