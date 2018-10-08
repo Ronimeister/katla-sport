@@ -15,6 +15,6 @@
         /// <summary>
         /// Gets or sets the hive identifier.
         /// </summary>
-        public int HiveId { get; set; }
+        public int StoreHiveId { get; set; }
     }
 }
