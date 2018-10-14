@@ -22,7 +22,7 @@
     </div>
     <div class="form-group">
       <label for="name" id="codeLabel">Hive Code</label>
-      <input type="text" class="form-control" id="name" aria-describedby="codeLabel" minlength="5" maxlength="5" required [(ngModel)]="hive.code"
+      <input type="text" class="form-control" id="code" aria-describedby="codeLabel" minlength="5" maxlength="5" required [(ngModel)]="hive.code"
         name="code" #code="ngModel">
       <div *ngIf="code.invalid && (code.dirty || code.touched)" class="alert alert-danger">
         <div *ngIf="code.errors.required">Hive Code is required.</div>
